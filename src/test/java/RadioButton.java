@@ -19,7 +19,7 @@ public class RadioButton {
         driver.get(url);
 
         //“Yeni Hesap Oluşturun” button’una basin
-        WebElement yeniHesapOlustur_Button = driver.findElement(By.xpath("//a[.='Yeni Hesap Oluştur']"));;
+        WebElement yeniHesapOlustur_Button = driver.findElement(By.xpath("//a[.='Yeni hesap oluştur']"));;
         yeniHesapOlustur_Button.click();
 
         //“radio buttons” elementlerini locate edin
