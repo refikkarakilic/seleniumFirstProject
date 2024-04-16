@@ -28,9 +28,9 @@ public class RadioButton {
 
         //Secili degilse cinsiyet butonundan size uygun olani secin
         if(!erkek_RadioButton.isSelected()){
-            //Thread.sleep(2000);
+            Thread.sleep(2000);
             erkek_RadioButton.click();
-            //Thread.sleep(2000);
+            Thread.sleep(2000);
         }
 
         driver.close();
