@@ -14,7 +14,6 @@ public class RadioButton {
         driver.get("https://www.facebook.com");
 
 
-
         //https://www.facebook.com adresine gidin
         String url = "https://www.facebook.com";
         driver.get(url);
