@@ -33,6 +33,7 @@ public class Dropdown {
         System.out.println("Value : " + select.getFirstSelectedOption().getText()); // Kitaplar
         Thread.sleep(2000);
 
+
         //3.yontem
         select.selectByVisibleText("Gıda ve İçecek");
         System.out.println("VisibleText : " + select.getFirstSelectedOption().getText());//Gıda ve İçecek
