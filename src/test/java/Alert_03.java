@@ -15,7 +15,7 @@ public class Alert_03 {
 
         WebElement alertButton3 = driver.findElement(By.xpath("//button[@onclick=\"jsPrompt()\"]"));
         WebElement result = driver.findElement(By.id("result"));
-        Thread.sleep(2000);
+
         alertButton3.click();
 
         driver.switchTo().alert().sendKeys("Refik Karakılıç");
