@@ -32,7 +32,7 @@ public class ActionsClass1 {
         actions.click(creatAListText).perform();
         Thread.sleep(2000);
         // ve liste oluşturun sayfasinin acildigini test edin
-        String expectedResult = "https://www.amazon.com/hz/wishlist/intro";
+        String expectedResult = "https://www.amazon.com.tr/hz/wishlist/intro";
         String actualResult = driver.getCurrentUrl();
         if(expectedResult.equals(actualResult)){
             System.out.println("Test Passed !!!!");
