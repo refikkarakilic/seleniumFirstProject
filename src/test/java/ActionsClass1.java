@@ -30,6 +30,7 @@ public class ActionsClass1 {
         // acilan menu de liste oluşturun linkine tiklayin
         WebElement creatAListText = driver.findElement(By.xpath("//span[.=\'Liste Oluşturun\']"));
         actions.click(creatAListText).perform();
+        Thread.sleep(2000);
         // ve liste oluşturun sayfasinin acildigini test edin
         String expectedResult = "https://www.amazon.com/hz/wishlist/intro";
         String actualResult = driver.getCurrentUrl();
