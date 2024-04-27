@@ -35,6 +35,7 @@ public class ActionsClass1 {
         String actualResult = driver.getCurrentUrl();
         if(expectedResult.equals(actualResult)){
             System.out.println("Test Passed !!!!");
+
         }
         Thread.sleep(1000);
         //driver.close();
