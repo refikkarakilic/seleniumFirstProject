@@ -22,7 +22,7 @@ public class File_Download {
         WebElement resimElement = driver.findElement(By.xpath("//a[.='Jpeg_with_exif.jpeg']"));
         resimElement.click();
         Thread.sleep(3000);
-        // resume.docx dosyasının indirildigini kontrol edin
+        // Jpeg_with_exif.jpeg dosyasının indirildigini kontrol edin
         //C:\Users\rfkkr\Downloads\Jpeg_with_exif.jpeg
 
         String dosyaYolu = System.getProperty("user.home")+"\\Downloads\\Jpeg_with_exif.jpeg";
