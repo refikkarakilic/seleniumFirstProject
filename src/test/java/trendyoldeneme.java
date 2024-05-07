@@ -44,7 +44,7 @@ public class trendyoldeneme {
 
         mail.sendKeys("qaseleniummm@gmail.com");
         Thread.sleep(2000);
-        sifre.sendKeys("******");
+        sifre.sendKeys("");
         Thread.sleep(2000);
         loginBtn.click();
         Thread.sleep(2000);
