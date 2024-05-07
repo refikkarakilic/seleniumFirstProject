@@ -35,7 +35,7 @@ public class trendyoldeneme {
 
         //e-postayı gir ve şifreyi gir
         //e-posta : qaseleniummm@gmail.com
-        //şifre : X123456..
+
 
         WebElement mail = driver.findElement(By.id("login-email"));
         WebElement sifre = driver.findElement(By.name("login-password"));
@@ -44,7 +44,7 @@ public class trendyoldeneme {
 
         mail.sendKeys("qaseleniummm@gmail.com");
         Thread.sleep(2000);
-        sifre.sendKeys("X123456..");
+        sifre.sendKeys("******");
         Thread.sleep(2000);
         loginBtn.click();
         Thread.sleep(2000);
